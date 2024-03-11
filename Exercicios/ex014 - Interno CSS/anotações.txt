@@ -1,0 +1,25 @@
+<style>
+
+Tudo que for ditado dentro da tag sera considerado CSS
+
+</style>
+
+
+O estilo sera baseado em seletores,por exemplo, se eu quiser mudar a tag <bory> eu vou criar um seletor para essa tag
+
+-------------------------------------------------------------------------------------
+
+
+Para mudar algo no site todo basta criar um  seletor (body) dentro da tag style, por exemplo:
+
+ <style>
+        body {
+            background-color: rgb(120, 164, 247);
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 15px;
+        }
+</style>
+
+---------------------------------------------------------------------------------------
+
+Quando se cria um seletor (h1,h2....) e muda a cor ou fonte, mudara todos os h1 que esta no site, assim serve para outros codigos como o <p>

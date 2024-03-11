@@ -1,0 +1,50 @@
+height: px (altura)
+width: px (largura)
+display: inline-block; ( tudo na mesma linha )
+
+HTML div: como usar a tag <div>? Como mencionamos, a tag <div> é utilizada para separar e agrupar conteúdos. Para isso, todos os elementos que pertencem a ela devem ser declarados entre a tag de início <div> e a tag de fechamento </div>. Assim, os estilos aplicados sobre a <div> refletirão nos itens inseridos nela.
+
+LINKS
+
+ a:visited (se o link ja foi visitado alguma vez , voce pode mudar a cor tambem)
+
+a:hover ( passando o mouse em cima do texto voce pode alterar com algum elemento como, color ou text-decoration: underline) 
+
+a:active ( ao clicar tera uma animaçao, como usar a cor amarela e quando clicar, o texto ficara amarelo)
+
+pseudo-classes (uma vez : 
+pseudo elemento ( duas vezes ::
+
+--------------------------------------------------
+
+caso queira deixar apenas 1 link como especial,
+exemplo:
+
+Instagram
+Youtube
+⋙Spotify⋘
+
+
+em HTML:
+
+<a href="https://open.spotify.com/intl-pt/artist/460m2YG30duLCuHwFdiLgX?si=TfvQSCTZRqWIBEIFZH3XkQ" class="especial">Spotify</a>
+
+CSS:
+
+.especial::before {
+       content: '⋙' ;
+}
+
+.especial::after {
+       content: '⋘' ;
+}
+
+--------------------------------------
+
+SELETORES PERSONALIZADOS
+
+#  (id)
+.   (class)
+:   (pseudo-classes)
+::  (pseudo-elementos)
+>  (clildren)

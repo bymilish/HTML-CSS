@@ -1,0 +1,99 @@
+ANATOMIA CAIXA
+
+height (altura)
+width (largura)
+border (traçar a caixa em volta)
+padding (aumentar/inflar o traçado da caixa, interno) 
+margin (borda/traçado externo)
+outline (traçado dentro do elemento)
+
+diferença entre <div> e <span> 
+
+a div é pra ser usada quando quebrar a linha
+
+--------------------------------------
+--------------------------------------
+--------------------------------------
+
+                   CAIXA
+
+--------------------------------------
+--------------
+
+span é quando continua na mesma linha
+
+--------------------------------------
+--------------------------------------
+---------------CAIXA--------------
+---------------------
+
+
+sempre que for mexer nas margens,bordas,etc
+siga essa sequência:
+
+top
+right
+bottom
+left
+
+ margin: auto; (centralizar a caixa)
+
+-----------------------------------------
+
+para simplificar o codigo ao inves de usar assim:
+
+
+border: 10px;
+border-style: solid;
+border-color:black ;
+
+use asim:
+
+border: 10px solid black
+
+ou
+
+padding: 10px 10px 10px 10px; (lembrando que a sequencia de tamanhos é no sentido horario)
+
+- se todos os lados forem 10px , basta colocar apenas
+padding: 10px
+
+-----------------------------------------------
+
+<header> (cabeçalho)
+
+<main> (conteúdo príncipal)
+
+<nav> (menu, é usado dentro de uma div)
+
+<section> ( uma lista de resultados de pesquisa ou a exibição de um mapa e seus controles não possuem elementos específicos, e podem ser colocados dentro de uma <section>)
+
+<articule> (um artigo de revista ou jornal, uma postagem de um blog, um comentário enviado por um usuário, um gadget ou widget interativo, ou qualquer outra forma de conteúdo independente)
+
+<aside> (seção de uma pagina , exemplo: Escrito por fulano)
+
+<footer> (rodapé)
+
+-------------------------------------------------
+
+SOMBRAS
+
+box-shadow: 1px 1px 1px black (simplificado)
+box-shadow: inset ....... (o inset significa sombra interna)
+
+-------------------------------------------------
+
+BORDAS ARREDONDADAS
+
+
+border-radius: **px
+
+sequência: 
+top-left
+top-right
+bottom-right
+bottom-left
+
+-------------------------------------------------
+
+BORDAS PERSONALIZADAS

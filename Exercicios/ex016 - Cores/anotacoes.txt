@@ -1,0 +1,26 @@
+Representação por nomes:
+blue;
+white;
+yellow;
+
+-------------------------------
+
+Representação por códigos hexadecimais:
+#0000ff; (azul)
+#ffffff; (branco)
+
+-------------------------------
+
+Representação em RGB (red, green, blue):
+ (cor azul) rgb (0, 0, 255); color: (cor branca) rgb (255, 255, 255)
+
+-------------------------------
+
+Representação por HSL (hue, saturation, luminosity):
+(cor azul) hsl (240, 100%, 50%); color: ( cor branca)  hsl (0, 0%, 100%)
+
+-------------------------------
+
+
+Ao passar o mouse em cima do quadradinho de cor e em cima onde tiver escrito rgb(0, 0, 000) 
+voce pode clicar e mudar a representação de cor

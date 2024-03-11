@@ -1,0 +1,53 @@
+HARMONIA DE CORES 
+
+Cores primarias (dentro do circulo cromatico)
+
+Amarelo
+Vermelho 
+Azul
+
+------------------------------------------
+
+Cores secundarias 
+
+Laranja 
+Violeta
+Verde
+
+------------------------------------------
+
+Cores Terciarias
+
+Toda cor dita terciaria, esta entre a cor primaria e secundaria, exemplo:
+
+Amarelo-esverdeado 
+Amarelo-alaranjado
+Vermelho-alaranjado
+Vermelho-arroxeado
+Azul-arroxeado
+Azul-esverdeado
+
+-------------------------------------------
+
+- No circulo cromatico existe cores frias e cores quentes.
+
+- forma de decidir uma paleta para o site: a paleta deve conter entre 3 ou 5 cores.
+
+-------------------------------------------
+
+Cores complementares: 
+
+uma cor que se contrasta com outra, ou seja, no circulo cromatico umaa cor nao deve estar proxima de outra, o certo é escolher cores opostas.
+
+Cores Analogas:
+
+São cores vizinhas,cores proximas.
+
+Outros tipos de cores:
+
+Cores analogas relacionadas
+Cores intercaladas
+COres tríadicas
+Cores tretadicas
+Cores em quadrado 
+Monocromia

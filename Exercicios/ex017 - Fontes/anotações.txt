@@ -1,0 +1,65 @@
+Alem das cores, a tipografia tambem trás emoções e significados.
+
+fundo branco e letra preta quando o site tiver muitos textos, assim ajudara na leitura.
+
+------------------------------------------------------------
+
+nem todos os dispositivos vao ter uma fonte especifica, para resolver isso use a fonte principal mais as outras q vao aparecer caso nao tenha, exemplo:
+
+font-family: Arial, Helvetica, sans-serif;
+
+
+CSS WEb Sufe Fonts, esse site ira ajudar nas combinações de fontes.
+
+-------------------------------------------------------------
+
+TAMANHO DE FONTE
+
+medidas absolutas
+(cm,mm,in,px,pt,pc)
+
+medidas relativas
+(em,ex,rem,vw,vh,%)
+
+para medida de fonte(font-size: ;) ele recomenta o uso do px e em.
+
+---------------------------------------------------------------
+
+PESO DA FONTE
+
+font-weight: (indica o peso da fonte)
+niveis de peso: lighter, normal, bold, bolder 
+
+font-style: (italic por exemplo)
+
+text-decoration: underline; (deixa o texto s̲u̲b̲l̲i̲n̲h̲a̲d̲o̲)
+
+existem fontes que nao tem essas configurações acima
+
+é possivel fazer a configuração em uma unica linha, por exemplo
+ao inves de ser assim:
+
+  h1 {
+            font-family: 'Work Sans', sans-serif;
+            font-weight: bolder;
+            font-size: 3em;
+            font-style: italic;
+        }
+
+
+sera assim, seguindo a sequencia ( font-style > font-weight > font-size > font-family )
+
+
+ h1 {
+
+----------------------------------------------------------------
+
+ALINHAMENTO DE FONTE
+
+ text-align: center,right, etc...
+
+text- align : justify (alinhamento dos dois lados)
+
+text-indent: 30px ou 3% (paragrafo do texto)
+
+

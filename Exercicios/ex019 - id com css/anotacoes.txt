@@ -1,0 +1,35 @@
+como é possivel só alternar apenas um elemento de dois, exemplo:
+ <h1>elemento 1 </h1>
+ <h1>elemento 2 </h1>
+
+quero mudar apenas o elemento 1 
+
+no HTML:
+<h1 id="principal">
+
+no CSS:
+h1#principal {
+       tudo que colocar aqui ,sera modificado apenas no h1  id="principal"
+}
+
+obs: o id=principal só pode ser usado uma vez.
+
+em HTML é id , em CSS é #
+em HTML é class, em CSS é .
+
+----------------------------------------------------------
+
+para mudar mais de 2 elementos use a tag class
+
+no HTML:
+ <h2 class="basico"> (de nome as classes como forma e não cor , exemplo: se for um curso , use basico,intermediario ou avançado.
+
+no CSS:
+.basico 
+
+--------
+
+caso queira citar uma frase em um texto use a tag <span> 
++ class , ficando assim:
+
+<span class="avancado">Voluptatibus sunt totam ducimus ratione exercitationem repudiandae nihil,</span> 

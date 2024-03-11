@@ -1,0 +1,55 @@
+O CSS é mais focado em algo semântico.
+
+Estilo inline (é usavel mas nao sera utilizado no dia a dia)
+
+
+para mudar fundo do site:
+
+(abaixo de </head>)
+<body style="background-color: cornflowerblue;">
+
+----------------------------------------------------------------------------
+
+Para mudar cor do texto:
+
+ <h1 style="color: blue;">exemplo</h1>
+
+-----------------------------------------------------------------------------
+
+para mudar a fonte do site todo:
+
+style= font-family: Arial, Helvetica, sans-serif;"> 
+
+------------------------------------------------------------------------------
+
+Quando o final do texto estiver desalinhado como por exemplo: 
+Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolores nisi, iure, nemo odit deleniti aliquam, dicta doloremque nam dolore cupiditate temporibus
+laudantium adipisci at tempora? Aspernatur enim cum odit 
+
+use o codigo:
+
+style="text-align: justify;"
+
+para ajustar e ficar assim:
+
+Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolores nisi, iure, 
+nemo odit deleniti aliquam, dicta doloremque nam dolore cupiditate  tebus
+laudantium adipisci at tempora? Aspernatur enim cum odit jcsml cmmsolzm
+
+-------------------------------------------------------------------------------
+
+Mudar o tamanho do texto do site todo:
+
+font-size: 50px;
+
+-------------------------------------------------------------------------------
+
+Mudar o tamanho do texto:
+
+font-size: 1.5em;
+
+-------------------------------------------------------------------------------
+
+Fundo atrás de algum texto:
+
+background-color:

@@ -1,0 +1,41 @@
+(Multiplas imagens para tamanho de telas diferentes)
+
+   <picture>
+        <source media="(max-width: 750px)" srcset="imagens/foto-p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/foto-m.png" type="image/png">
+        <img src="IMAGENS/foto-g.png" alt="Imagem flexível">
+    </picture>
+
+Se não estiver em ordem nao irá funcionar.
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Áudio
+
+Para adicionar um áudio no site use o codigo:
+
+ <audio src="midia/capway ykgg.mp3" controls autoplay></audio>
+
+
+nem todos os navegadores tem compatividade com o formato do áudio.
+alguns formatos de áudio caso o navegador nao aceite:
+
+MP3,WAV,OGG
+
+OBS: arquivos WAV são pesados.
+
+
+Outra forma de colocar o áudio:
+
+<audio preload="metadata" autoplay controls loop>
+        <source src="midia/capway ykgg.mp3" type="audio/mpeg">
+        <source src="midia/capway ykgg.ogg" type="audio/ogg">
+        <source src="midia/capway ykgg.wav" type="audio/wav">
+
+esse codigo serve para quando o navegado tiver compatividade com algum desses formatos de áudio.
+
+
+caso não tiver use:
+
+<p>Infelizmente seu navegador nao consegue reproduzir áudio. <a href="midia/capway ykgg.mp3">Clique aqui para baixar 
+o arquivo MP3</a></p>

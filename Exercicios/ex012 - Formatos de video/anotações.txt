@@ -1,0 +1,40 @@
+É recomendado nao utilizar formato de video 1080p pra cima, principalmente se for 4K.
+
+o codigo funciona do mesmo esquema que os formatos de áudio!
+
+para adicionar no site use o codigo:
+
+ <video width="500" poster="imagens/sm 1.jpg" controls>
+        <source src="midia/Meu Video.mp4" type="video/mp4">
+        <source src="midia/Meu Video.mkv" type="video/mkv">
+        <source src="midia/Meu Video.webm" type="viddeo/webm">
+        <p>Seu navegador não tem compatibilidade com reprodução de vídeos.</p>
+
+loop (quando o vídeo acabar ele vai começar novamente)
+
+
+caso nenhum formato de video for compativel com o navegador, em seguida irá aparecer:
+
+<p>Seu navegador não tem compatibilidade com reprodução de vídeos.</p>
+
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+Incorporação de vídeos internos
+
+Para colocar um vídeo do youtube basta escolher o video, compartilhar> incorpotar> copiar o codigo
+
+exemplo:  <iframe width="500" height="315" src="https://www.youtube.com/embed/b18Dak49jq8?si=DEd2-_hUiaBByGM9" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+
+o mesmo serve para o vimeo
+
+
+ <iframe width="400" height="215" src="https://www.youtube.com/embed/RVc8uronTq4?si=zu5z-ZvRVKfrJXRO" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+    <iframe width="400" height="215" src="https://www.youtube.com/embed/K9qL7wRQeZ4?si=kJ4XPbmL-_vJYoa2" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+    <iframe width="400" height="215" src="https://www.youtube.com/embed/k_no5GauziU?si=yKi2bA8hmuq0jdxv" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+    <iframe width="400" height="215" src="https://www.youtube.com/embed/ZRMxYBz40hE?si=0rs3mvXJz1ipm1Q4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>

@@ -1,0 +1,29 @@
+Se vc quiser criar uma pagina nova mas não tiver na pasta do explorador de arquivos, para facilicar use a tag:
+
+a href="pagina02.html" 
+
+deixe a seta do mouse em cima de "pagina02.html" e aparecera um atalho (ctrl +clique)
+e crie um arquivo novo ( no caso a pagina nova).
+
+------------------------------------------------------------------------------------
+
+Usando a tag:
+
+a tag link rel........... leva o html ate o css de forma prática
+
+ <link rel="stylesheet" href="style.css"> (abaixo de <tittle>) em todas as paginas
+
+e criar um arquivo chamado #style.css
+
+todas paginas estarão conectadas, ou seja , se você mudar a cor de fundo no arquivo #style.css , as cores de todos os sites tambem ira mudar
+
+você tambem pode criar mais de um <link rel="stylesheet" href="style.css">
+para estilos extras por exemplo.
+
+
+dentro do arquivo #styles.css comece com:
+ @"UTF-8"; 
+-------------------------------------------------------------------------------------
+
+É permitido usar todos os estilos (inline,interno e externo)
+

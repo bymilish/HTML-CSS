@@ -1,0 +1,31 @@
+para criar um gradiente use a tag:
+
+   <style>
+        body {
+            background-image: linear-gradient(to left, white,blue);
+        }
+    </style>
+
+ou para mudar a posição do gradiente use a forma (90deg) ao invés de (to right).
+
+ao usar o lado (to top) (gradiente em cima) o gradiente ficara igual zebra, como se tivesse bugado, mas para mudar isso use a tag:
+
+    <style>
+        * {
+            height: 100%;              <--------
+        }
+
+-----------------------acima----------------------- 
+
+        body {
+            background-image: linear-gradient(to top, white,blue);
+        }
+    </style>
+
+- para uma cor do gradiente se expandir mais use porcentagem, exemplo: #000000 20%
+
+------------------------------------------------------
+
+- Para o gradiente nao ficar "solto" ao rolar o scroll do mouse, ajuste com:
+
+ background-attachment: fixed;

@@ -1,0 +1,82 @@
+VARIAVEIS EM CSS
+
+:root {
+    --cor0: #c5ebd5;
+    --cor1: #83e1ad;
+    --cor2: #3ddc84;
+    --cor3: #2fa866;
+    --cor4: #1a5c37;
+    --cor5: #063d1e;
+}
+
+body {
+* color:var(--cor5) ; *
+}
+
+o mesmo serve para fontes,etc.
+
+-----------------------------------------------------
+
+para fazer uma alteração de todos os elementos do html, use *
+
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+-----------------------------------------------------
+
+FONTS
+
+para colocar uma fonte baixada no css 
+
+  @font-face {
+    font-family: 'Android';
+    src: url('idroid.otf') format('formado da fonte*opentype*');
+    font-weight: normal;
+  }
+
+------------------------------------------------------
+
+RESPOSIVIDADE NO SITE
+
+HTML
+<picture>
+                <source media="(max-width:615px )" srcset="imagens/irina-blok-pq.jpg">
+                <img src="imagens/irina-blok.jpg" alt="Criadora">
+</picture>
+
+
+CSS
+main img {
+    width: 100%;
+}
+
+------------------------------------------------------
+
+line-height: 1.5em;   (espaçamento de altura entre linhas)
+
+list-style-type: '\2714\00A0\00A0';   (nao é compativel com todo tipo de navegador)
+
+------------------------------------------------------
+
+RESPOSIVIDADE DE VIDEO
+
+div.video {
+    background-color: #1a5c37;
+    margin-bottom: 30px;
+    margin: 0px -20px 30px -20px;
+    padding: 20px;
+    padding-bottom: 50%;
+    position: relative;
+}
+
+div.video > iframe {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+}
+
